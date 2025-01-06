@@ -262,28 +262,28 @@ the `eo-runtime` module:
 <!-- benchmark_begin -->
 
 ```text
-to-java.xsl                          68264  32.87%
-add-refs.xsl                         24448  11.77%
-set-locators.xsl                     12970  6.25%
-tests.xsl                            10989  5.29%
-rename-tests-inners.xsl              9114   4.39%
-add-probes.xsl                       6215   2.99%
-resolve-aliases.xsl                  5968   2.87%
-vars-float-up.xsl                    5879   2.83%
-classes.xsl                          5856   2.82%
-add-default-package.xsl              5548   2.67%
-explicit-data.xsl                    5511   2.65%
-package.xsl                          5313   2.56%
-cti-adds-errors.xsl                  5106   2.46%
-expand-qqs.xsl                       4279   2.06%
-clean-up.xsl                         4133   1.99%
-atoms-with-bound-attrs.xsl           4106   1.98%
+to-java.xsl                          64741  26.21%
+set-locators.xsl                     21156  8.57%
+add-refs.xsl                         19288  7.81%
+abstracts-float-up.xsl               15684  6.35%
+tests.xsl                            10674  4.32%
+rename-tests-inners.xsl              10211  4.13%
+classes.xsl                          7598   3.08%
+package.xsl                          6803   2.75%
+fix-missed-names.xsl                 6613   2.68%
+add-probes.xsl                       5818   2.36%
+explicit-data.xsl                    5801   2.35%
+vars-float-up.xsl                    5425   2.20%
+resolve-aliases.xsl                  5420   2.19%
+add-default-package.xsl              5234   2.12%
+cti-adds-errors.xsl                  4384   1.78%
+align-test-classes.xsl               4274   1.73%
 ```
 
 The results were calculated in [this GHA job][benchmark-gha]
-on 2024-12-23 at 05:07,
+on 2025-01-06 at 12:45,
 on Linux with 4 CPUs.
-The total is 207665 milliseconds.
+The total is 246964 milliseconds.
 We show only the first 16 most expensive XSL stylesheets.
 
 <!-- benchmark_end -->
@@ -324,4 +324,4 @@ to enhance the performance of EO components:
 
 [![YourKit](https://www.yourkit.com/images/yklogo.png)](https://www.yourkit.com)
 
-[benchmark-gha]: https://github.com/objectionary/eo/actions/runs/12461404086
+[benchmark-gha]: https://github.com/dfhh123/eo/actions/runs/12632627543
